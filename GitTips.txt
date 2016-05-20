@@ -17,3 +17,6 @@ git reset --hard + 版本号    退回所要版本  HEAD表示当前版本  HEAD^ HEAD^^ HEAD~1
 版本号码前几位 可以表示 版本
 
 git reflog 查看 输入的每一次命令
+
+git checkout -- name   撤销 对文件的修改 退回到上次版本（文件在工作区 未提交到暂存区）
+
