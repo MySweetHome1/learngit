@@ -20,3 +20,5 @@ git reflog 查看 输入的每一次命令
 
 git checkout -- name   撤销 对文件的修改 退回到上次版本（文件在工作区 未提交到暂存区）
 
+git reset HEAD name  撤销文件修改 （文件已提交到暂存区 ）  撤销后要 撤销工作区的修改
+
