@@ -1,0 +1,19 @@
+mkdir +name  创建一个空目录
+cd +name  进入目录
+pwd  显示当前目录路径
+git init 把当前目录变为Git 可以管理的仓库
+
+git diff +name 查看文件修改信息（未提交的文件）
+
+git add + name   ---文件从工作区提交到暂存区(stage)  可以一次提交多个文件  用空格区别文件
+
+git commit -m "imformation" ----将暂存区的文件 提交到 分支（Master） " "内的为你此次提交所要提示的信息
+
+git status 查看暂存区信息
+
+git log 查看分支内的版本
+
+git reset --hard + 版本号    退回所要版本  HEAD表示当前版本  HEAD^ HEAD^^ HEAD~100 表示上个版本 上上个版本 前100个版本
+版本号码前几位 可以表示 版本
+
+git reflog 查看 输入的每一次命令
